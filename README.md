@@ -16,10 +16,10 @@ Wet paint for sure.
 
 
 Options:
-    parser.add_argument("-host", help="host to target, e.g 'https://somesonicwall.xyz' (REQUIRED).", required=True)
-    parser.add_argument("-userlist", help="user list (REQUIRED).", required=True)
-    parser.add_argument("-password", help="password to use (single).")
-    parser.add_argument("-passwordlist", help="password list. Seriously consider setting a delay value.")
-    parser.add_argument("-proxy", help="HTTP proxy.")
-    parser.add_argument("-delay", help="how many seconds to wait before moving to next password in list.")
-    parser.add_argument("-debug", help="print extra stuffs.", action='store_true')
+-host          host to target, e.g 'https://somesonicwall.xyz' (REQUIRED)
+-userlist      user list (REQUIRED)
+-password      password to use (single).
+-passwordlist  password list. Seriously consider setting a delay value.
+-proxy         HTTP proxy.
+-delay         how many seconds to wait before moving to next password in list.
+-debug         print extra stuffs.
