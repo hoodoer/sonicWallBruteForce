@@ -15,11 +15,11 @@ Wet paint for sure.
 
 
 
-Options:
--host          host to target, e.g 'https://somesonicwall.xyz' (REQUIRED)
--userlist      user list (REQUIRED)
--password      password to use (single).
--passwordlist  password list. Seriously consider setting a delay value.
--proxy         HTTP proxy.
--delay         how many seconds to wait before moving to next password in list.
--debug         print extra stuffs.
+Options:<br/>
+-host          host to target, e.g 'https://somesonicwall.xyz' (REQUIRED)<br/>
+-userlist      user list (REQUIRED)<br/>
+-password      password to use (single).<br/>
+-passwordlist  password list. Seriously consider setting a delay value.<br/>
+-proxy         HTTP proxy.<br/>
+-delay         how many seconds to wait before moving to next password in list.<br/>
+-debug         print extra stuffs.<br/>
