@@ -93,7 +93,11 @@ def req_login_page():
         resp = requests.get(LOGIN_PORTAL, verify = VERIFY, proxies=proxies)
 
     if debug:
-        print("Parsing login page at: " + LOGIN_PORTAL)
+    	print("********************************************")
+    	print("Parsing login page at: " + LOGIN_PORTAL)
+    	print("Login page response: " + str(resp.status_code))
+    	print("Login page content: " + str(resp.text))
+    	print("********************************************")
 
     parser = InputFieldParser()
     parser.feed(resp.text)
